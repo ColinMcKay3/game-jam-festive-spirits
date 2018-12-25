@@ -12,8 +12,16 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_gram</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_black</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_test</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_menu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
