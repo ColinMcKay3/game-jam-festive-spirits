@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_janet</sprite>
     <sprite>sprites\spr_gram</sprite>
+    <sprite>sprites\spr_dad</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
