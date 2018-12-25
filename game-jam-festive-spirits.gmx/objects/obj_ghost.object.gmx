@@ -8,11 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-<<<<<<< HEAD
     <event eventtype="3" enumb="0">
-=======
-    <event eventtype="1" enumb="0">
->>>>>>> b3d2ddefac4b637dc1626724932a8196d0423841
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -29,11 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-<<<<<<< HEAD
             <string> h = 0;
-=======
-            <string>oj = true
->>>>>>> b3d2ddefac4b637dc1626724932a8196d0423841
+ b = 0;
 </string>
           </argument>
         </arguments>
