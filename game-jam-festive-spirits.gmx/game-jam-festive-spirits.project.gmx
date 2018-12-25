@@ -17,8 +17,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <timelines name="timelines"/>
+  <objects name="objects">
+    <object>objects\object0</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\noah_test_room</room>
   </rooms>
