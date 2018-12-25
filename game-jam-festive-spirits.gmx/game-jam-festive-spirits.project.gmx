@@ -11,6 +11,7 @@
     <sprite>sprites\spr_dad</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_gram</sprite>
+    <sprite>sprites\spr_book_shelf</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
