@@ -18,7 +18,7 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_ghost</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\noah_test_room</room>
