@@ -12,9 +12,16 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_book_shelf</sprite>
+    <sprite>sprites\spr_carpet</sprite>
+    <sprite>sprites\spr_tile_floor</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects"/>
+  <timelines name="timelines"/>
+  <rooms name="rooms">
+    <room>rooms\noah_test_room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
