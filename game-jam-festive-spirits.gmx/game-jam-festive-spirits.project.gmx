@@ -9,9 +9,11 @@
     <sprite>sprites\spr_janet</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_dad</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
