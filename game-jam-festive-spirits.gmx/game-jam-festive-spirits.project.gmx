@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_janet</sprite>
+    <sprite>sprites\spr_gram</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
