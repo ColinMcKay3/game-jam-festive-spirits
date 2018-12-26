@@ -10,6 +10,8 @@
     <sprite>sprites\spr_janet</sprite>
     <sprite>sprites\spr_dad</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_carpet</sprite>
+    <sprite>sprites\spr_sight</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_book_shelf</sprite>
     <sprite>sprites\spr_start_button</sprite>
@@ -25,6 +27,9 @@
   <paths name="paths">
     <path>paths\pth_gothere</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\scr_sight.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_ghost</object>
     <object>objects\obj_start_button</object>
@@ -32,6 +37,7 @@
     <object>objects\obj_dad</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_book_shelf</object>
+    <object>objects\obj_sight</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
