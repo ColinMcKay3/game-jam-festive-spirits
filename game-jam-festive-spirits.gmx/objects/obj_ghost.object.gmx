@@ -85,7 +85,10 @@ if(v_pressed+h_pressed != 0){
     direction = (v_direction+h_direction)/(v_pressed+h_pressed);
 }
 
-
+//Exit The Game
+if (keyboard_check_pressed(vk_escape)) {
+    room_goto(rm_menu);
+}
 
 
 </string>
