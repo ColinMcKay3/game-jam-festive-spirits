@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>aicounter = 3000;
+path_start(pth_gothere, 2, path_action_stop, false);
 </string>
           </argument>
         </arguments>
