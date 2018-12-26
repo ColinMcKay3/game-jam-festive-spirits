@@ -16,16 +16,15 @@
     <sprite>sprites\spr_tile_floor</sprite>
     <sprite>sprites\spr_start_button</sprite>
     <sprite>sprites\spr_exit_button</sprite>
+    <sprite>sprites\spr_present</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_ghost</object>
     <object>objects\obj_start_button</object>
     <object>objects\obj_exit_button</object>
-    <object>objects\obj_wall</object>
+    <object>objects\obj_dad</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
