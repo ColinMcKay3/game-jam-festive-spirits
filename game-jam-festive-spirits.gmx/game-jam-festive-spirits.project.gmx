@@ -41,8 +41,8 @@
     <object>objects\obj_book_shelf</object>
     <object>objects\obj_sight</object>
     <object>objects\obj_present</object>
-    <object>objects\obj_festive_red</object>
     <object>objects\obj_festive_green</object>
+    <object>objects\obj_festive_red</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
