@@ -8,4 +8,3 @@ if(self.s_direction == self.direction+15){
 self.s_direction += 5*sign(obj_sight.up);
 
 
-
