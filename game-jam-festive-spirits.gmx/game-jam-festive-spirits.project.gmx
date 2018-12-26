@@ -19,7 +19,6 @@
     <sprite>sprites\spr_present</sprite>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_stairs</sprite>
-    <sprite>sprites\spr_sight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tl_carpet</background>
