@@ -12,14 +12,13 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_book_shelf</sprite>
-    <sprite>sprites\spr_carpet</sprite>
-    <sprite>sprites\spr_tile_floor</sprite>
     <sprite>sprites\spr_start_button</sprite>
     <sprite>sprites\spr_exit_button</sprite>
     <sprite>sprites\spr_present</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\tl_carpet</background>
+    <background>background\tl_tile_floor</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_gothere</path>
@@ -30,6 +29,7 @@
     <object>objects\obj_exit_button</object>
     <object>objects\obj_dad</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_book_shelf</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
