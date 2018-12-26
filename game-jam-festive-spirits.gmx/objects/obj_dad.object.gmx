@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>aicounter = 3000;
 s_direction = 0;
-//path_start(pth_gothere, 10, path_action_stop, false);
+path_start(pth_gothere, 1, path_action_stop, false);
 </string>
           </argument>
         </arguments>
@@ -50,7 +50,7 @@ s_direction = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>direction += 10;
+            <string>//Changing Direction 
 image_angle = direction;
 
 </string>
