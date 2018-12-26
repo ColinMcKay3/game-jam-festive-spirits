@@ -10,6 +10,8 @@
     <sprite>sprites\spr_janet</sprite>
     <sprite>sprites\spr_dad</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_carpet</sprite>
+    <sprite>sprites\spr_sight</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_book_shelf</sprite>
     <sprite>sprites\spr_start_button</sprite>
