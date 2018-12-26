@@ -14,13 +14,18 @@
     <sprite>sprites\spr_book_shelf</sprite>
     <sprite>sprites\spr_carpet</sprite>
     <sprite>sprites\spr_tile_floor</sprite>
+    <sprite>sprites\spr_start_button</sprite>
+    <sprite>sprites\spr_exit_button</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_ghost</object>
+    <object>objects\obj_start_button</object>
+    <object>objects\obj_exit_button</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\noah_test_room</room>
   </rooms>
   <help>
