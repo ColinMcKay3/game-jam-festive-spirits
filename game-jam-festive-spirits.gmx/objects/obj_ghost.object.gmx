@@ -150,12 +150,9 @@ if (keyboard_check_pressed(vk_escape)) {
             <kind>1</kind>
             <string>draw_self();
 
-draw_sprite(spr_festive_red,0,x,y);
-spr_festive_red.image_xscale = 5;
-draw_sprite(spr_festive_green,0,x,y);
-spr_festive_green.image_xscale = green_scale;
-
 image_speed = 0.2
+
+draw_text(x,y-50,string(green_scale)+" "+string(festive));
 </string>
           </argument>
         </arguments>

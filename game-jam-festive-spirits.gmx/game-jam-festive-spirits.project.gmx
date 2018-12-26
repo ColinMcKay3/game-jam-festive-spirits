@@ -11,7 +11,6 @@
     <sprite>sprites\spr_dad</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_carpet</sprite>
-    <sprite>sprites\spr_sight</sprite>
     <sprite>sprites\spr_gram</sprite>
     <sprite>sprites\spr_book_shelf</sprite>
     <sprite>sprites\spr_start_button</sprite>
@@ -42,6 +41,8 @@
     <object>objects\obj_book_shelf</object>
     <object>objects\obj_sight</object>
     <object>objects\obj_present</object>
+    <object>objects\obj_festive_red</object>
+    <object>objects\obj_festive_green</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
