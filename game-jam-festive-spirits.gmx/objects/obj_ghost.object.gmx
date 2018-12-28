@@ -52,42 +52,24 @@ has_key = false;
           <argument>
             <kind>1</kind>
             <string>//Movement
-if(keyboard_check(ord('A'))||keyboard_check(ord('W'))||keyboard_check(ord('D'))||keyboard_check(ord('S'))){
-    speed = player_speed;
-} else {
-    speed = 0;
-}
-
-
-h_direction = 0;
 if(keyboard_check(ord('A'))){
-    h_direction = 180;
-    h_pressed = 1;
-}else if(keyboard_check(ord('D'))) {
-    h_pressed = 1;
-    if(keyboard_check(ord('W'))){
-        h_direction = 0;
-    }else {
-        h_direction = 360;
-    }
+    hspeed = -player_speed;
+}else if(keyboard_check(ord('D'))){
+    hspeed = player_speed;
 }else {
-    h_pressed = 0;
+    hspeed = 0;
 }
 
-v_direction = 0;
 if(keyboard_check(ord('W'))){
-    v_direction = 90;
-    v_pressed = 1;
+    
+    vspeed = -player_speed;
 }else if(keyboard_check(ord('S'))){
-    v_direction = 270;
-    v_pressed = 1;
+    vspeed = player_speed
 }else {
-    v_pressed = 0;
+    vspeed = 0;
 }
 
-if(v_pressed+h_pressed != 0){
-    direction = (v_direction+h_direction)/(v_pressed+h_pressed);
-}
+speed = min(speed, player_speed);
 
 //Collision
 if(keyboard_check(ord('A'))){
@@ -106,10 +88,16 @@ if(keyboard_check(ord('W'))){
     y_direction = 0;
 }
 
-if(place_meeting(x+(x_direction*speed),y+(y_direction*speed),obj_wall)){
-    speed = 0;
-    while(!place_meeting(x+x_direction,y+y_direction,obj_wall)){
+if(place_meeting(x+(x_direction*speed),y,obj_wall)){
+    hspeed = 0;
+    while(!place_meeting(x+x_direction,y,obj_wall)){
         x+=x_direction;
+    }
+}
+
+if(place_meeting(x,y+(y_direction*speed),obj_wall)){
+    vspeed = 0;
+    while(!place_meeting(x,y+y_direction,obj_wall)){
         y+=y_direction;
     }
 }
