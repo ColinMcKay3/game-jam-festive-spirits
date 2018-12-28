@@ -39,6 +39,8 @@
     <backgrounds name="br_grp_floor">
       <background>background\tl_carpet</background>
       <background>background\tl_tile_floor</background>
+      <background>background\tl_wood_floor</background>
+      <background>background\tl_dark</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">

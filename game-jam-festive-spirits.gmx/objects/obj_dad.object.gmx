@@ -27,7 +27,16 @@
             <kind>1</kind>
             <string>aicounter = 3000;
 s_direction = 0;
-path_start(pth_gothere, 1, path_action_stop, false);
+
+go_there = path_add();
+
+path_x = path_get_point_x(pth_gothere,0);
+path_y = path_get_point_y(pth_gothere,0);
+
+path_add_point(go_there,x,y,100);
+path_add_point(go_there,path_x,path_y,100);
+
+path_start(go_there, 2, path_action_stop, false);
 </string>
           </argument>
         </arguments>
@@ -53,6 +62,10 @@ path_start(pth_gothere, 1, path_action_stop, false);
             <string>//Changing Direction 
 image_angle = direction;
 
+//start path if at path beginning
+if(x==path_x&amp;&amp;y==path_y){
+    path_start(pth_gothere, 2, path_action_stop, false);
+}
 </string>
           </argument>
         </arguments>
@@ -94,6 +107,31 @@ image_angle = direction;
           <argument>
             <kind>0</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+
+image_speed = 0.2;
+</string>
           </argument>
         </arguments>
       </action>
