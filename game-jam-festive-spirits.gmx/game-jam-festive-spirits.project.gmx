@@ -6,25 +6,40 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_ghost</sprite>
-    <sprite>sprites\spr_janet</sprite>
-    <sprite>sprites\spr_dad</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_carpet</sprite>
-    <sprite>sprites\spr_gram</sprite>
-    <sprite>sprites\spr_book_shelf</sprite>
-    <sprite>sprites\spr_start_button</sprite>
-    <sprite>sprites\spr_exit_button</sprite>
-    <sprite>sprites\spr_present</sprite>
-    <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_stairs</sprite>
-    <sprite>sprites\spr_sight</sprite>
-    <sprite>sprites\spr_festive_red</sprite>
-    <sprite>sprites\spr_festive_green</sprite>
+    <sprites name="spr_grp_solid">
+      <sprite>sprites\spr_book_shelf</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprites name="spr_grp_counter">
+        <sprite>sprites\spr_counter</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="spr_grp_menu">
+      <sprite>sprites\spr_exit_button</sprite>
+      <sprite>sprites\spr_start_button</sprite>
+    </sprites>
+    <sprites name="spr_grp_misc">
+      <sprite>sprites\spr_festive_green</sprite>
+      <sprite>sprites\spr_festive_red</sprite>
+      <sprite>sprites\spr_sight</sprite>
+    </sprites>
+    <sprites name="spr_grp_AI">
+      <sprite>sprites\spr_ghost</sprite>
+      <sprite>sprites\spr_janet</sprite>
+      <sprite>sprites\spr_dad</sprite>
+      <sprite>sprites\spr_gram</sprite>
+    </sprites>
+    <sprites name="spr_grp_interactive">
+      <sprite>sprites\spr_stairs</sprite>
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_present</sprite>
+      <sprite>sprites\spr_key</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\tl_carpet</background>
-    <background>background\tl_tile_floor</background>
+    <backgrounds name="br_grp_floor">
+      <background>background\tl_carpet</background>
+      <background>background\tl_tile_floor</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_gothere</path>
@@ -33,16 +48,26 @@
     <script>scripts\scr_sight.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_ghost</object>
-    <object>objects\obj_start_button</object>
-    <object>objects\obj_exit_button</object>
-    <object>objects\obj_dad</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_book_shelf</object>
-    <object>objects\obj_sight</object>
-    <object>objects\obj_present</object>
-    <object>objects\obj_festive_green</object>
-    <object>objects\obj_festive_red</object>
+    <objects name="obj_grp_menu">
+      <object>objects\obj_start_button</object>
+      <object>objects\obj_exit_button</object>
+    </objects>
+    <objects name="obj_grp_solid">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_book_shelf</object>
+    </objects>
+    <objects name="obj_grp_AI">
+      <object>objects\obj_ghost</object>
+      <object>objects\obj_dad</object>
+    </objects>
+    <objects name="obj_grp_misc">
+      <object>objects\obj_sight</object>
+    </objects>
+    <objects name="obj_grp_interactive">
+      <object>objects\obj_present</object>
+      <object>objects\obj_key</object>
+      <object>objects\obj_door</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

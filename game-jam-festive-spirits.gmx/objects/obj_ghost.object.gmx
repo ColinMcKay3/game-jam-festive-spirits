@@ -28,6 +28,7 @@
             <string>player_speed = 5;
 green_scale = 0;
 festive = 0;
+has_key = false;
 </string>
           </argument>
         </arguments>
@@ -116,9 +117,7 @@ if(place_meeting(x+(x_direction*speed),y+(y_direction*speed),obj_wall)){
 //Festive
 green_scale = (festive/100)*5;
 
-if(place_meeting(x,y,obj_present)){
-    festive += 25;
-}
+//the amount of festive you get is kept within obj_present
 
 //Exit The Game
 if (keyboard_check_pressed(vk_escape)) {
@@ -152,7 +151,15 @@ if (keyboard_check_pressed(vk_escape)) {
 
 image_speed = 0.2
 
-draw_text(x,y-50,string(green_scale)+" "+string(festive));
+draw_text(x,y-50,string(green_scale)+" "+string(festive)+ " " + string(has_key));
+
+if(has_key){
+    draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);
+}
+
+draw_sprite_ext(spr_festive_red,0,view_xview[0]+20,view_yview[0]+20,5,1,0,c_white,1);
+draw_sprite_ext(spr_festive_green,0,view_xview[0]+20,view_yview[0]+20,green_scale,1,0,c_white,1);
+
 </string>
           </argument>
         </arguments>
