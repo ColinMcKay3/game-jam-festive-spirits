@@ -12,6 +12,7 @@
       <sprites name="spr_grp_counter">
         <sprite>sprites\spr_counter</sprite>
       </sprites>
+      <sprite>sprites\sprite16</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
@@ -57,6 +58,7 @@
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
       <object>objects\obj_book_shelf</object>
+      <object>objects\obj_good_table</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>
