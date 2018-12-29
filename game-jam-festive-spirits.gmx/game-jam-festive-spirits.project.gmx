@@ -35,6 +35,11 @@
       <sprite>sprites\spr_present</sprite>
       <sprite>sprites\spr_key</sprite>
     </sprites>
+    <sprites name="spr_grp_decorations">
+      <sprite>sprites\spr_sock</sprite>
+      <sprite>sprites\spr_shoes</sprite>
+      <sprite>sprites\spr_carpet</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="br_grp_floor">
