@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_speed = 5;
+            <string>player_speed = 2.5;
 green_scale = 0;
 festive = 0;
 has_key = false;
@@ -137,7 +137,7 @@ if (keyboard_check_pressed(vk_escape)) {
             <kind>1</kind>
             <string>draw_self();
 
-image_speed = 0.2
+image_speed = 0.1
 
 draw_text(x,y-50,string(green_scale)+" "+string(festive)+ " " + string(has_key));
 
