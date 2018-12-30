@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(noah_test_room);
+            <string>room_goto(rm_floor_1);
 
 </string>
           </argument>
