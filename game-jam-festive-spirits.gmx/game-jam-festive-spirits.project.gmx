@@ -13,6 +13,7 @@
       <sprites name="spr_grp_counter">
         <sprite>sprites\spr_counter</sprite>
       </sprites>
+      <sprite>sprites\spr_fence</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
@@ -68,6 +69,7 @@
       <object>objects\obj_wall</object>
       <object>objects\obj_book_shelf</object>
       <object>objects\obj_good_table</object>
+      <object>objects\obj_fence</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>

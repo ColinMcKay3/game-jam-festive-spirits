@@ -26,8 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>aicounter = 3000;
-s_direction = 0;
-test = 0;
+g_direction = 0;
+saw_counter = 0;
+saw_scale = 0;
+saw = false;
 /*
 go_there = path_add();
 
@@ -64,6 +66,30 @@ path_start(go_there, 1, path_action_stop, false);
             <kind>1</kind>
             <string>//Changing Direction 
 image_angle = direction;
+
+//if he is hit with a sight bullet and is within sight
+if(saw&amp;&amp;wis){
+    saw_counter = 0;
+    saw_scale+=.01;   
+}else {
+    saw_scale-=.01;
+}
+
+//saw counter gets increased every step
+saw_counter++;
+//saw scale effects the green bar above the ai's heads and this just makes sure it 
+//stays between 0 and 1 so that it does not grow and shrink infinetly
+saw_scale = min(saw_scale,1);
+saw_scale = max(saw_scale,0);
+
+
+//a buffer between shots hitting player to make sure the boolean
+//saw does not ping pong between true and false
+if(saw_counter == 15){
+    saw = false;
+}
+
+
 
 //start path if at path beginning
 /*
@@ -136,10 +162,10 @@ if(x==path_x&amp;&amp;y==path_y){
             <kind>1</kind>
             <string>draw_self();
 
-draw_text(x,y-30,string(test));
+draw_text(x,y-30,string(saw_counter)+" "+string(saw)+" "+string(wis));
 
 draw_sprite_ext(spr_festive_red,0,x,y-30,1,.15,0,c_white,1);
-draw_sprite_ext(spr_festive_green,0,x,y-30,.5,.15,0,c_white,1);
+draw_sprite_ext(spr_festive_green,0,x,y-30,saw_scale,.15,0,c_white,1);
 
 image_speed = 0.1;
 </string>
