@@ -1,6 +1,6 @@
-instance_create(self.x,self.y,obj_sight);
+inst = instance_create(self.x,self.y,obj_sight);
+inst.s_id = id;
 g_direction = point_direction(self.x,self.y,obj_ghost.x,obj_ghost.y);
-
 
 
 s_other = 360 + self.direction-45;

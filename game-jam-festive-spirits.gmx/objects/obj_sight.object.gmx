@@ -26,13 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>speed = 10;
-up = 1;
 distance_counter = 0;
 s_life = 30;
 direction = point_direction(self.x,self.y,obj_ghost.x,obj_ghost.y);
 s_id = 0;
-
-s_id = instance_place(x,y,all);
 
 
 </string>
@@ -62,8 +59,6 @@ s_id = instance_place(x,y,all);
 if(distance_counter &gt; s_life){
     instance_destroy();
 }
-
-
 </string>
           </argument>
         </arguments>
@@ -88,7 +83,7 @@ if(distance_counter &gt; s_life){
             <kind>1</kind>
             <string>draw_self();
 
-draw_text(x,y,string(obj_sight.s_id));
+draw_text(x,y,string(s_id));
 </string>
           </argument>
         </arguments>

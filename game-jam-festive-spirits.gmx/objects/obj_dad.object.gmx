@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>aicounter = 3000;
 s_direction = 0;
+test = 0;
 /*
 go_there = path_add();
 
@@ -95,7 +96,7 @@ if(x==path_x&amp;&amp;y==path_y){
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>self</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -134,6 +135,8 @@ if(x==path_x&amp;&amp;y==path_y){
           <argument>
             <kind>1</kind>
             <string>draw_self();
+
+draw_text(x,y-30,string(test));
 
 draw_sprite_ext(spr_festive_red,0,x,y-30,1,.15,0,c_white,1);
 draw_sprite_ext(spr_festive_green,0,x,y-30,.5,.15,0,c_white,1);

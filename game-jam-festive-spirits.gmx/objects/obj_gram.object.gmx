@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_dummy</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="3" enumb="0">
@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>self</string>
           </argument>
           <argument>
             <kind>0</kind>
