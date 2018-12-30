@@ -20,9 +20,11 @@
       <sprite>sprites\spr_start_button</sprite>
     </sprites>
     <sprites name="spr_grp_misc">
-      <sprite>sprites\spr_festive_green</sprite>
-      <sprite>sprites\spr_festive_red</sprite>
+      <sprite>sprites\spr_festive</sprite>
       <sprite>sprites\spr_sight</sprite>
+      <sprite>sprites\spr_basement_dark</sprite>
+      <sprite>sprites\spr_seen</sprite>
+      <sprite>sprites\spr_sight_border</sprite>
     </sprites>
     <sprites name="spr_grp_AI">
       <sprite>sprites\spr_ghost</sprite>
@@ -50,6 +52,7 @@
       <background>background\tl_wood_floor</background>
       <background>background\tl_dark</background>
       <background>background\tl_carpet_blue</background>
+      <background>background\tl_dim</background>
     </backgrounds>
     <background>background\tl_snow</background>
     <background>background\background5</background>
@@ -61,6 +64,7 @@
     <script>scripts\scr_sight.gml</script>
     <script>scripts\scr_room_chooser.gml</script>
     <script>scripts\scr_in_sight.gml</script>
+    <script>scripts\scr_draw_ai.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
@@ -90,10 +94,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\noah_test_room</room>
+    <room>rooms\rm_basement</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_oven</room>
     <room>rooms\rm_floor_1</room>
-    <room>rooms\rm_basement</room>
     <room>rooms\rm_attic</room>
   </rooms>
   <help>
