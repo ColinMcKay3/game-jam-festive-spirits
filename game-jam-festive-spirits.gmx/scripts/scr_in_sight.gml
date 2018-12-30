@@ -17,4 +17,3 @@ saw_scale = max(saw_scale,0);
 if(saw_counter == 15){
     saw = false;
 }
-

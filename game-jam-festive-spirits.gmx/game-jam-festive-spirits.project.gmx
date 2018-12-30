@@ -60,6 +60,7 @@
   <scripts name="scripts">
     <script>scripts\scr_sight.gml</script>
     <script>scripts\scr_room_chooser.gml</script>
+    <script>scripts\scr_in_sight.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
