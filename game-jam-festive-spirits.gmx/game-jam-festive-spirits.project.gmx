@@ -60,6 +60,7 @@
   <scripts name="scripts">
     <script>scripts\scr_sight.gml</script>
     <script>scripts\scr_room_chooser.gml</script>
+    <script>scripts\scr_in_sight.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
@@ -88,8 +89,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
     <room>rooms\noah_test_room</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_oven</room>
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_basement</room>
