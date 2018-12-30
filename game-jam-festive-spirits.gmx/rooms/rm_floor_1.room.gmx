@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="br_snow" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="tl_snow" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -42,13 +42,13 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_ghost" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="720" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_good_table" x="320" y="480" name="inst_A0F5FC78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -304,6 +304,47 @@
     <tile bgName="tl_wood_floor" x="192" y="416" w="32" h="32" xo="0" yo="0" id="10000589" name="inst_8B9C6412" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_wood_floor" x="192" y="384" w="32" h="32" xo="0" yo="0" id="10000590" name="inst_94306D98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_wood_floor" x="256" y="384" w="32" h="32" xo="0" yo="0" id="10000591" name="inst_08BF8E42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="224" y="128" w="64" h="64" xo="0" yo="0" id="10000632" name="inst_2EB0EE69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="224" y="192" w="64" h="64" xo="0" yo="0" id="10000633" name="inst_79856FD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="224" y="256" w="64" h="64" xo="0" yo="0" id="10000634" name="inst_1EFE341A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="288" y="128" w="64" h="64" xo="0" yo="0" id="10000635" name="inst_5ADEF694" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="288" y="192" w="64" h="64" xo="0" yo="0" id="10000636" name="inst_BAAFBABD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="288" y="256" w="64" h="64" xo="0" yo="0" id="10000637" name="inst_216E3E87" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="352" y="128" w="64" h="64" xo="0" yo="0" id="10000638" name="inst_FE29316B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="352" y="192" w="64" h="64" xo="0" yo="0" id="10000639" name="inst_20B89105" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_carpet_blue" x="352" y="256" w="64" h="64" xo="0" yo="0" id="10000640" name="inst_C1DA6374" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="96" w="32" h="32" xo="0" yo="0" id="10000641" name="inst_141E8989" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="128" w="32" h="32" xo="0" yo="0" id="10000642" name="inst_C0498346" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="160" w="32" h="32" xo="0" yo="0" id="10000643" name="inst_D4FEE885" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="192" w="32" h="32" xo="0" yo="0" id="10000644" name="inst_75BC069D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="224" w="32" h="32" xo="0" yo="0" id="10000645" name="inst_94C7D247" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="256" w="32" h="32" xo="0" yo="0" id="10000646" name="inst_5707821C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="288" w="32" h="32" xo="0" yo="0" id="10000647" name="inst_BBFCD196" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="192" y="320" w="32" h="32" xo="0" yo="0" id="10000648" name="inst_EA25B8F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="224" y="320" w="32" h="32" xo="0" yo="0" id="10000649" name="inst_C79CC254" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="256" y="320" w="32" h="32" xo="0" yo="0" id="10000650" name="inst_35A805E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="288" y="320" w="32" h="32" xo="0" yo="0" id="10000651" name="inst_90B10452" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="320" y="320" w="32" h="32" xo="0" yo="0" id="10000652" name="inst_E3288B33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="320" y="352" w="32" h="32" xo="0" yo="0" id="10000653" name="inst_24D7127D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="288" y="352" w="32" h="32" xo="0" yo="0" id="10000654" name="inst_15FFB5D0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="352" y="320" w="32" h="32" xo="0" yo="0" id="10000655" name="inst_4809FE15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="384" y="320" w="32" h="32" xo="0" yo="0" id="10000656" name="inst_D77B6356" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="320" w="32" h="32" xo="0" yo="0" id="10000657" name="inst_80DC776C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="288" w="32" h="32" xo="0" yo="0" id="10000658" name="inst_8CEEDAB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="256" w="32" h="32" xo="0" yo="0" id="10000659" name="inst_C6BC6263" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="224" w="32" h="32" xo="0" yo="0" id="10000660" name="inst_B6799F51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="192" w="32" h="32" xo="0" yo="0" id="10000661" name="inst_37AC4B5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="160" w="32" h="32" xo="0" yo="0" id="10000662" name="inst_17CCAD53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="128" w="32" h="32" xo="0" yo="0" id="10000663" name="inst_F87A2A18" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="416" y="96" w="32" h="32" xo="0" yo="0" id="10000664" name="inst_B3EFD792" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="384" y="96" w="32" h="32" xo="0" yo="0" id="10000665" name="inst_BDF34FF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="352" y="96" w="32" h="32" xo="0" yo="0" id="10000666" name="inst_ACB5AEA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="320" y="96" w="32" h="32" xo="0" yo="0" id="10000667" name="inst_EB076B80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="288" y="96" w="32" h="32" xo="0" yo="0" id="10000668" name="inst_3C6BD754" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="256" y="96" w="32" h="32" xo="0" yo="0" id="10000669" name="inst_C9A0DAB9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="224" y="96" w="32" h="32" xo="0" yo="0" id="10000670" name="inst_EC011794" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="448" y="192" w="32" h="32" xo="0" yo="0" id="10000671" name="inst_65EE0A30" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_wood_floor" x="448" y="224" w="32" h="32" xo="0" yo="0" id="10000672" name="inst_A0F03629" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
