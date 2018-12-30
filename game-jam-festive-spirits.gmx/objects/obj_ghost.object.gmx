@@ -29,6 +29,7 @@
 green_scale = 0;
 festive = 0;
 has_key = false;
+
 </string>
           </argument>
         </arguments>
@@ -139,7 +140,7 @@ if (keyboard_check_pressed(vk_escape)) {
 
 image_speed = 0.1
 
-draw_text(x,y-50,string(obj_dad.g_direction)+" " +string(obj_dad.s_bottom)+ " " +string(obj_dad.s_top));
+
 
 if(has_key){
     draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);

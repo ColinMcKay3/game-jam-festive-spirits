@@ -135,6 +135,9 @@ if(x==path_x&amp;&amp;y==path_y){
             <kind>1</kind>
             <string>draw_self();
 
+draw_sprite_ext(spr_festive_red,0,x,y-30,1,.15,0,c_white,1);
+draw_sprite_ext(spr_festive_green,0,x,y-30,.5,.15,0,c_white,1);
+
 image_speed = 0.1;
 </string>
           </argument>

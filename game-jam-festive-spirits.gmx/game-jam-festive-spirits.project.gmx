@@ -68,6 +68,8 @@
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>
       <object>objects\obj_dad</object>
+      <object>objects\obj_gram</object>
+      <object>objects\obj_dummy</object>
     </objects>
     <objects name="obj_grp_misc">
       <object>objects\obj_sight</object>
