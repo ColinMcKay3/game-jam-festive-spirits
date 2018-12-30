@@ -106,7 +106,6 @@ if(place_meeting(x,y,obj_ghost)){
             <string>draw_self();
 image_speed = 0;
 
-draw_text(x,y, string(s_id));
 </string>
           </argument>
         </arguments>

@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>if(place_meeting(x-obj_ghost.x_direction,y-obj_ghost.y_direction,obj_ghost)&amp;&amp;obj_ghost.has_key){
     instance_destroy();
-    obj_ghost.has_key = false;
 }
 </string>
           </argument>
