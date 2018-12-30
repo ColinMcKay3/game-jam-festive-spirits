@@ -60,34 +60,30 @@ if(distance_counter &gt; s_life){
     instance_destroy();
 }
 
+
+if(place_meeting(x,y,obj_ghost)){
+    (s_id).saw = true;
+    (s_id).saw_counter = 0;
+}
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_ghost">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>203</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if((s_id).wis){
-    (s_id).saw = true;
-}
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
     <event eventtype="8" enumb="0">
@@ -109,7 +105,8 @@ if(distance_counter &gt; s_life){
             <kind>1</kind>
             <string>draw_self();
 image_speed = 0;
-draw_text(x,y,string(s_id));
+
+draw_text(x,y, string(s_id));
 </string>
           </argument>
         </arguments>
