@@ -16,7 +16,7 @@ global.has_key = false;
 global.has_bone = 0;
 global.bone_counter = 0;
 global.spawned_present = false;
-global.timer = 14400;</code>
+global.timer = 21600;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
