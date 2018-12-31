@@ -50,6 +50,7 @@
     </sprites>
     <sprites name="spr_grp_decorations">
       <sprite>sprites\spr_sock</sprite>
+      <sprite>sprites\spr_knife</sprite>
       <sprite>sprites\spr_shoes</sprite>
       <sprite>sprites\spr_tv</sprite>
       <sprite>sprites\spr_carpet</sprite>
@@ -71,6 +72,7 @@
   <paths name="paths">
     <path>paths\pth_gothere</path>
     <path>paths\pth_boy</path>
+    <path>paths\pth_ending</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_sight.gml</script>
