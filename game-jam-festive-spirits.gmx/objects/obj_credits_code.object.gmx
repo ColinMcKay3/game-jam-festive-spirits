@@ -62,9 +62,11 @@ draw_text(640, credits_counter + 1425, "Dad: Portayed By Noah Seppeler");
 draw_text(640, credits_counter + 1450, "Grandma: Portayed By Colin McKay");
 draw_text(640, credits_counter + 1475, "Ghost: Portayed By Noah Seppeler");
 draw_text(640, credits_counter + 1500, "Boy: Portayed By Colin McKay");
+draw_text(640, credits_counter + 1700, "Developed, Produced, Funded, and Sponsored by:");
+draw_text(640, credits_counter + 1725, "Leaded Pencil Incorporated");
 credits_counter --;
 
-if (credits_counter == -2300) {
+if (credits_counter == -2525) {
     game_end();
 }
 </string>
