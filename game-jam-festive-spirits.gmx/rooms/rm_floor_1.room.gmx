@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_ghost" x="128" y="224" name="inst_548E7294" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairs" x="672" y="160" name="inst_9F03358F" locked="0" code="to_room = &quot;basement&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_stairs" x="672" y="160" name="inst_9F03358F" locked="0" code="to_room = &quot;basement&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_good_table" x="320" y="480" name="inst_A0F5FC78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_wall" x="160" y="352" name="inst_F723251E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="384" name="inst_0508BE92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

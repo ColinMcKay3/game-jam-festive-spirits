@@ -69,6 +69,7 @@
     <script>scripts\scr_room_chooser.gml</script>
     <script>scripts\scr_in_sight.gml</script>
     <script>scripts\scr_draw_ai.gml</script>
+    <script>scripts\scr_text_bubble.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
@@ -83,9 +84,11 @@
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>
+      <object>objects\obj_ghost_immobile</object>
       <object>objects\obj_dad</object>
       <object>objects\obj_gram</object>
       <object>objects\obj_boy</object>
+      <object>objects\obj_janet</object>
     </objects>
     <objects name="obj_grp_misc">
       <object>objects\obj_sight</object>
@@ -97,10 +100,14 @@
       <object>objects\obj_stairs</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline1</timeline>
+  </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_ending</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_oven</room>
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
