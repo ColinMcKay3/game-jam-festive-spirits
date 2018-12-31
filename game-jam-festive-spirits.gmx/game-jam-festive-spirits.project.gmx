@@ -145,8 +145,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_info</room>
     <room>rooms\rm_ending</room>
+    <room>rooms\rm_info</room>
     <room>rooms\rm_credits</room>
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
