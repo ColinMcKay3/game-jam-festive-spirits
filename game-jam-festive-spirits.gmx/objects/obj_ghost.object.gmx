@@ -103,7 +103,7 @@ if(place_meeting(x,y+(y_direction*speed),obj_wall)){
     }
 }
 
-if (place_meeting(x - x_direction , y - y_direction, obj_janet) &amp;&amp; festive == 100) {
+if (place_meeting(x - x_direction , y - y_direction, obj_janet) &amp;&amp; global.festive == 100) {
     room_goto(rm_ending);
 }
 
@@ -115,9 +115,6 @@ green_scale = (global.festive/100)*5;
 //Exit The Game
 if (keyboard_check_pressed(vk_escape)) {
     game_end();
-}
-
-if(place_meeting(x,y,obj_janet)&amp;&amp;global.festive == 100){
 }
 
 
