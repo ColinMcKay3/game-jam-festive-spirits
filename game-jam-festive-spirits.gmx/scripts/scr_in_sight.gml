@@ -1,6 +1,6 @@
 //if he is hit with a sight bullet and is within sight
 if(saw&&wis){
-    saw_scale+=(obj_ghost.festive/100)*.025;
+    saw_scale+=(global.festive/100)*.025;
 }else {
     saw_scale-=.01;
 }

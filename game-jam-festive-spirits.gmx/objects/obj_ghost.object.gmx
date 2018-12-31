@@ -27,8 +27,6 @@
             <kind>1</kind>
             <string>player_speed = 2.5;
 green_scale = 0;
-festive = 0;
-has_key = false;
 
 </string>
           </argument>
@@ -108,7 +106,7 @@ if (place_meeting(x - x_direction , y - y_direction, obj_janet) &amp;&amp; festi
 }
 
 //Festive
-green_scale = (festive/100)*5;
+green_scale = (global.festive/100)*5;
 
 //the amount of festive you get is kept within obj_present
 
@@ -145,7 +143,7 @@ if (keyboard_check_pressed(vk_escape)) {
 image_speed = 0.1
 
 
-if(has_key){
+if(global.has_key){
     draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);
 }
 
