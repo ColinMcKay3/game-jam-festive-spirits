@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>oven_on = false;
+            <string>
 
 </string>
           </argument>
@@ -51,15 +51,16 @@
             <kind>1</kind>
             <string>with (obj_ghost) {
     if(place_meeting(x+(x_direction*speed),y,obj_oven)){
-        other.oven_on = true;
+        global.oven_on = true;
     }
 }
 
 if (place_meeting(x - 1,y,obj_gram)) {
-    oven_on = false
+    global.oven_on = false
+    global.stop_counter = 240;
 }
 
-if (oven_on == false) {
+if (global.oven_on == false) {
     image_index = 0;
 } else {
     image_index = 1;

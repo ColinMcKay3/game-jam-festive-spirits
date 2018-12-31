@@ -29,6 +29,8 @@
 saw_counter = 0;
 saw_scale = 0;
 saw = false;
+on_path = false;
+global.stop_counter = 0;
 direction = 270;
 image_angle = direction;
 </string>
@@ -37,6 +39,44 @@ image_angle = direction;
       </action>
     </event>
     <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_angle = direction;
+if (speed == 0) {
+    image_index = 1;
+}
+
+if (on_path == false &amp;&amp; global.oven_on == true) {
+    path_start(pth_gram, 1, path_action_stop, false);
+    global.stop_counter = 460;
+    on_path = true;
+}
+
+if (global.stop_counter &lt;= 0) {
+    direction = 90;
+} else {
+    global.stop_counter --;
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>601</id>
@@ -119,6 +159,30 @@ image_angle = direction;
       </action>
     </event>
     <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+if (global.oven_on == true) {
+    scr_text_bubble("What's That?");
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>601</id>

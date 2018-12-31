@@ -10,7 +10,8 @@
   <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>to_room = "attic";</code>
+  <code>to_room = "attic";
+global.oven_on = false;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -51,6 +52,8 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
+    <instance objName="obj_gram" x="784" y="241" name="inst_0F388B2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_present" x="784" y="212" name="inst_7718C366" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost" x="128" y="224" name="inst_548E7294" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairs" x="672" y="192" name="inst_9F03358F" locked="0" code="to_room = &quot;basement&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_good_table" x="320" y="480" name="inst_A0F5FC78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -246,8 +249,21 @@
     <instance objName="obj_bone" x="192" y="320" name="inst_A4339AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bone" x="480" y="160" name="inst_7869CF0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bone" x="480" y="320" name="inst_2DF183F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter" x="1014" y="208" name="inst_E9767C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_key" x="128" y="288" name="inst_E2B6874E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_oven" x="1024" y="256" name="inst_59AF995B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fridge" x="1056" y="320" name="inst_B668594F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_counter" x="1040" y="304" name="inst_4FD65A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter" x="1040" y="240" name="inst_94CF135A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter" x="1040" y="208" name="inst_2AF4F584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter" x="976" y="208" name="inst_A9310CF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="1008" y="208" name="inst_173AF02B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="944" y="208" name="inst_F4E112C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="912" y="208" name="inst_6349FE17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="880" y="208" name="inst_51426D57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="848" y="208" name="inst_C2384852" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="816" y="208" name="inst_59825875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_counter" x="784" y="208" name="inst_37520A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
   </instances>
   <tiles>
     <tile bgName="tl_carpet" x="224" y="416" w="32" h="32" xo="0" yo="0" id="10000418" name="inst_19901140" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
