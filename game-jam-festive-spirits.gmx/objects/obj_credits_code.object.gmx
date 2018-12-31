@@ -31,28 +31,6 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -85,6 +63,10 @@ draw_text(640, credits_counter + 1450, "Grandma: Portayed By Colin McKay");
 draw_text(640, credits_counter + 1475, "Ghost: Portayed By Noah Seppeler");
 draw_text(640, credits_counter + 1500, "Boy: Portayed By Colin McKay");
 credits_counter --;
+
+if (credits_counter == -2300) {
+    game_end();
+}
 </string>
           </argument>
         </arguments>

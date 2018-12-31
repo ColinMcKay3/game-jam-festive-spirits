@@ -91,9 +91,10 @@ if (ending_counter &gt;= 500) {
     scr_text_bubble("It's Ok Janet");
 } else if (ending_counter &gt;= 200) {
     scr_text_bubble("We're together");
-} else if (ending_counter &gt;= 100) {
+} else if (ending_counter &gt;= 0) {
     scr_text_bubble("again");
     draw_sprite(spr_knife, 0, x + 10, y - 10);
+    draw_sprite_ext(spr_janet, 1, obj_janet.x, obj_janet.y, 1, 1, 180, c_white, 1)
 }
 </string>
           </argument>
