@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>player_speed = 2.5;
 green_scale = 0;
+x_direction = 1;
+y_direction = 1;
 
 </string>
           </argument>

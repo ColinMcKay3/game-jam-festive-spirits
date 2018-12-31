@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprites name="spr_grp_solid">
       <sprite>sprites\spr_christmas_tree</sprite>
+      <sprite>sprites\spr_oven</sprite>
       <sprite>sprites\spr_bathtub</sprite>
       <sprite>sprites\spr_book_shelf</sprite>
       <sprite>sprites\spr_basement_wall</sprite>
@@ -57,7 +58,6 @@
       <sprite>sprites\spr_knife</sprite>
       <sprite>sprites\spr_shoes</sprite>
       <sprite>sprites\spr_tv</sprite>
-      <sprite>sprites\spr_carpet</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -108,6 +108,7 @@
       <object>objects\obj_sink</object>
       <object>objects\obj_tv</object>
       <object>objects\obj_doghouse</object>
+      <object>objects\obj_oven</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost_immobile</object>
