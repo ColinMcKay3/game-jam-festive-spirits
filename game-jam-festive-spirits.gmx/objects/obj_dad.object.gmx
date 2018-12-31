@@ -30,7 +30,7 @@ g_direction = 0;
 saw_counter = 0;
 saw_scale = 0;
 saw = false;
-/*
+
 go_there = path_add();
 
 path_x = path_get_point_x(pth_gothere,0);
@@ -40,8 +40,6 @@ path_add_point(go_there,x,y,100);
 path_add_point(go_there,path_x,path_y,100);
 
 path_start(go_there, 1, path_action_stop, false);
-
-*/
 </string>
           </argument>
         </arguments>
@@ -68,12 +66,10 @@ path_start(go_there, 1, path_action_stop, false);
 image_angle = direction;
 
 //start path if at path beginning
-/*
 if(x==path_x&amp;&amp;y==path_y){
     path_start(pth_gothere, 1, path_action_stop, false);
 }
 
-*/
 </string>
           </argument>
         </arguments>

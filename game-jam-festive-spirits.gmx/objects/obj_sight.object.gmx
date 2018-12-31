@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed = 30;
+            <string>speed = 25;
 distance_counter = 0;
-s_life = 4;
+s_life = 6;
 direction = point_direction(self.x,self.y,obj_ghost.x,obj_ghost.y);
 s_id = 0;
 
