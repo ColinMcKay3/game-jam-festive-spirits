@@ -24,6 +24,7 @@
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
       <sprite>sprites\spr_start_button</sprite>
+      <sprite>sprites\spr_menu</sprite>
     </sprites>
     <sprites name="spr_grp_misc">
       <sprite>sprites\spr_fov</sprite>
@@ -69,6 +70,7 @@
       <background>background\tl_other_carpet</background>
     </backgrounds>
     <background>background\tl_snow</background>
+    <background>background\br_game_over</background>
     <background>background\background5</background>
   </backgrounds>
   <paths name="paths">
@@ -82,11 +84,13 @@
     <script>scripts\scr_in_sight.gml</script>
     <script>scripts\scr_draw_ai.gml</script>
     <script>scripts\scr_text_bubble.gml</script>
+    <script>scripts\scr_game_over.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
       <object>objects\obj_start_button</object>
       <object>objects\obj_exit_button</object>
+      <object>objects\obj_menu</object>
     </objects>
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
@@ -120,12 +124,13 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_ending</room>
     <room>rooms\noah_test_room</room>
+    <room>rooms\rm_ending</room>
     <room>rooms\rm_basement</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
