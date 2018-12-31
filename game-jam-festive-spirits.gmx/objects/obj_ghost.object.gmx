@@ -169,6 +169,10 @@ if (keyboard_check_pressed(vk_escape)) {
 
 global.timer--;
 
+if(global.timer  == 0){
+    scr_game_over();
+}
+
 time = global.timer/60;
 
 draw_text(view_xview[0]+300,view_yview[0]+25,"Time: " + string(time));
