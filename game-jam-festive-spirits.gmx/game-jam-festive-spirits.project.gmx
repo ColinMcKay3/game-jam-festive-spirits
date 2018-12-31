@@ -32,8 +32,10 @@
       <sprite>sprites\spr_basement_dark</sprite>
       <sprite>sprites\spr_seen</sprite>
       <sprite>sprites\spr_sight_border</sprite>
+      <sprite>sprites\spr_doghouse</sprite>
     </sprites>
     <sprites name="spr_grp_AI">
+      <sprite>sprites\spr_dog</sprite>
       <sprite>sprites\spr_ghost</sprite>
       <sprite>sprites\spr_janet</sprite>
       <sprite>sprites\spr_dad</sprite>
@@ -109,7 +111,6 @@
       <object>objects\obj_stairs</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
