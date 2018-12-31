@@ -76,6 +76,7 @@
     <background>background\tl_snow</background>
     <background>background\background5</background>
     <background>background\bg_game_over</background>
+    <background>background\bg_info</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_gothere</path>
@@ -141,6 +142,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_info</room>
     <room>rooms\rm_ending</room>
     <room>rooms\rm_credits</room>
     <room>rooms\noah_test_room</room>
@@ -148,6 +150,7 @@
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
     <room>rooms\rm_game_over</room>
+    <room>rooms\room8</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
