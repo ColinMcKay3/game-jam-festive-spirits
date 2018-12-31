@@ -33,6 +33,7 @@
       <sprite>sprites\spr_seen</sprite>
       <sprite>sprites\spr_sight_border</sprite>
       <sprite>sprites\spr_doghouse</sprite>
+      <sprite>sprites\spr_exclamation</sprite>
     </sprites>
     <sprites name="spr_grp_AI">
       <sprite>sprites\spr_dog</sprite>
@@ -65,6 +66,7 @@
       <background>background\tl_carpet_blue</background>
       <background>background\tl_dim</background>
       <background>background\tl_basement_floor</background>
+      <background>background\tl_other_carpet</background>
     </backgrounds>
     <background>background\tl_snow</background>
     <background>background\background5</background>
@@ -97,6 +99,7 @@
       <object>objects\obj_couch</object>
       <object>objects\obj_toilet</object>
       <object>objects\obj_sink</object>
+      <object>objects\obj_tv</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost_immobile</object>
@@ -117,8 +120,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_ending</room>
     <room>rooms\noah_test_room</room>
+    <room>rooms\rm_ending</room>
     <room>rooms\rm_basement</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_oven</room>
