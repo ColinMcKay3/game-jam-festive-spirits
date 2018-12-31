@@ -45,6 +45,8 @@
       <sprite>sprites\spr_carpet</sprite>
     </sprites>
     <sprite>sprites\spr_boy</sprite>
+    <sprite>sprites\spr_doghouse</sprite>
+    <sprite>sprites\spr_dog</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="br_grp_floor">
