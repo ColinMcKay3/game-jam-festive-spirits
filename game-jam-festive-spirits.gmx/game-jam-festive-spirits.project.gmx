@@ -28,6 +28,7 @@
       <sprite>sprites\spr_start_button</sprite>
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_info</sprite>
+      <sprite>sprites\spr_title</sprite>
     </sprites>
     <sprites name="spr_grp_misc">
       <sprite>sprites\spr_fov</sprite>
@@ -95,6 +96,8 @@
       <object>objects\obj_start_button</object>
       <object>objects\obj_exit_button</object>
       <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_info</object>
     </objects>
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
@@ -120,6 +123,7 @@
       <object>objects\obj_gram</object>
       <object>objects\obj_boy</object>
       <object>objects\obj_dog</object>
+      <object>objects\obj_dummy</object>
     </objects>
     <objects name="obj_grp_misc">
       <object>objects\obj_credits_code</object>
@@ -136,12 +140,12 @@
     <object>objects\obj_counter</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_ending</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_floor_1</room>
+    <room>rooms\rm_ending</room>
     <room>rooms\rm_credits</room>
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
-    <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
     <room>rooms\rm_game_over</room>
   </rooms>
