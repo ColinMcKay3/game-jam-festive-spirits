@@ -60,6 +60,7 @@ saw = false;
             <string>image_angle = direction;
 if (stop_counter &lt;= 300 &amp;&amp; stop_counter &gt; 0) {
     path_speed = 0;
+    image_index = 0;
 } else if (stop_counter &lt;= 0) {
     path_speed = 1;
     stop_counter = random_range(301, 800);

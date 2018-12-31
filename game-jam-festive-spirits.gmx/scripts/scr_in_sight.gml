@@ -1,6 +1,6 @@
 //if he is hit with a sight bullet and is within sight
 if(saw&&wis){
-    saw_scale+=(global.festive/100)*.025;
+    saw_scale+=(global.festive/100)*.05;
 }else {
     saw_scale-=.01;
 }
@@ -10,6 +10,10 @@ saw_counter++;
 //stays between 0 and 1 so that it does not grow and shrink infinetly
 saw_scale = min(saw_scale,1);
 saw_scale = max(saw_scale,0);
+
+if(saw_scale == 1){
+    scr_game_over();
+}
 
 
 //a buffer between shots hitting player to make sure the boolean
