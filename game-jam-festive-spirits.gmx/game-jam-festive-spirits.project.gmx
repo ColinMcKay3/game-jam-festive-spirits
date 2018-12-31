@@ -124,11 +124,14 @@
       <object>objects\obj_gram</object>
       <object>objects\obj_boy</object>
       <object>objects\obj_dog</object>
+      <object>objects\obj_dummy</object>
     </objects>
     <objects name="obj_grp_misc">
       <object>objects\obj_credits_code</object>
       <object>objects\obj_sight</object>
       <object>objects\obj_stairs_useless</object>
+      <object>objects\obj_shoes</object>
+      <object>objects\obj_sock</object>
     </objects>
     <objects name="obj_grp_interactive">
       <object>objects\obj_present</object>
