@@ -39,7 +39,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_ghost.festive += 25;
+            <string>global.festive += 25;
 </string>
           </argument>
         </arguments>

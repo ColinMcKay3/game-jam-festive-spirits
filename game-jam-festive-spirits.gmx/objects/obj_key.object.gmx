@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!obj_ghost.has_key){
-    obj_ghost.has_key = true;
+            <string>if(!global.has_key){
+    global.has_key = true;
     instance_destroy();
 }
 </string>

@@ -18,6 +18,8 @@
       </sprites>
       <sprite>sprites\spr_fence</sprite>
       <sprite>sprites\spr_couch</sprite>
+      <sprite>sprites\spr_toilet</sprite>
+      <sprite>sprites\spr_sink</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
@@ -87,6 +89,9 @@
       <object>objects\obj_fence</object>
       <object>objects\obj_bathtub</object>
       <object>objects\obj_christmas_tree</object>
+      <object>objects\obj_couch</object>
+      <object>objects\obj_toilet</object>
+      <object>objects\obj_sink</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>
@@ -104,6 +109,7 @@
       <object>objects\obj_stairs</object>
     </objects>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
