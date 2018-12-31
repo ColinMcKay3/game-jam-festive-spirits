@@ -7,19 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="spr_grp_solid">
+      <sprite>sprites\spr_christmas_tree</sprite>
+      <sprite>sprites\spr_bathtub</sprite>
       <sprite>sprites\spr_book_shelf</sprite>
+      <sprite>sprites\spr_basement_wall</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_table</sprite>
       <sprites name="spr_grp_counter">
         <sprite>sprites\spr_counter</sprite>
       </sprites>
       <sprite>sprites\spr_fence</sprite>
+      <sprite>sprites\spr_couch</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
       <sprite>sprites\spr_start_button</sprite>
     </sprites>
     <sprites name="spr_grp_misc">
+      <sprite>sprites\spr_fov</sprite>
       <sprite>sprites\spr_festive</sprite>
       <sprite>sprites\spr_sight</sprite>
       <sprite>sprites\spr_basement_dark</sprite>
@@ -31,6 +36,7 @@
       <sprite>sprites\spr_janet</sprite>
       <sprite>sprites\spr_dad</sprite>
       <sprite>sprites\spr_gram</sprite>
+      <sprite>sprites\spr_boy</sprite>
     </sprites>
     <sprites name="spr_grp_interactive">
       <sprite>sprites\spr_stairs</sprite>
@@ -44,7 +50,6 @@
       <sprite>sprites\spr_tv</sprite>
       <sprite>sprites\spr_carpet</sprite>
     </sprites>
-    <sprite>sprites\spr_boy</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="br_grp_floor">
@@ -54,6 +59,7 @@
       <background>background\tl_dark</background>
       <background>background\tl_carpet_blue</background>
       <background>background\tl_dim</background>
+      <background>background\tl_basement_floor</background>
     </backgrounds>
     <background>background\tl_snow</background>
     <background>background\background5</background>
@@ -75,9 +81,12 @@
     </objects>
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
+      <object>objects\obj_basement_wall</object>
       <object>objects\obj_book_shelf</object>
       <object>objects\obj_good_table</object>
       <object>objects\obj_fence</object>
+      <object>objects\obj_bathtub</object>
+      <object>objects\obj_christmas_tree</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost</object>
