@@ -48,7 +48,7 @@
           <argument>
             <kind>1</kind>
             <string>with (obj_ghost) {
-    if(place_meeting(x+(x_direction*speed),y,obj_oven)){
+    if(place_meeting(x+(x_direction*speed),y,obj_oven) &amp;&amp; global.stop_counter = 0){
         global.oven_on = true;
     }
 }
