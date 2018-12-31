@@ -40,6 +40,9 @@
           <argument>
             <kind>1</kind>
             <string>global.festive += 25;
+
+
+room_restart();
 </string>
           </argument>
         </arguments>
