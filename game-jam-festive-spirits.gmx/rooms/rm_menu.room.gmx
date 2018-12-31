@@ -10,7 +10,12 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>//window_set_fullscreen(true);</code>
+  <code>//window_set_fullscreen(true);
+global.festive = 0;
+global.has_key = false;
+global.has_bone = 0;
+global.bone_counter = 0;
+global.spawned_present = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

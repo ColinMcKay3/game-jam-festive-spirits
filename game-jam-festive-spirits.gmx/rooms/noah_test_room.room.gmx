@@ -55,7 +55,6 @@ global.has_key = false;</code>
     <instance objName="obj_ghost" x="192" y="224" name="inst_1957460C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dad" x="160" y="320" name="inst_D22256A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="96" y="128" name="inst_7915AC35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_present" x="448" y="128" name="inst_8A2E18E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="224" y="160" name="inst_E2E338D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_door" x="352" y="288" name="inst_C96B5E10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_wall" x="224" y="160" name="inst_59B20492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

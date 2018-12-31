@@ -24,6 +24,8 @@
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
       <sprite>sprites\spr_start_button</sprite>
+      <sprite>sprites\spr_menu</sprite>
+      <sprite>sprites\spr_info</sprite>
     </sprites>
     <sprites name="spr_grp_misc">
       <sprite>sprites\spr_fov</sprite>
@@ -48,6 +50,7 @@
       <sprite>sprites\spr_door</sprite>
       <sprite>sprites\spr_present</sprite>
       <sprite>sprites\spr_key</sprite>
+      <sprite>sprites\spr_bone</sprite>
     </sprites>
     <sprites name="spr_grp_decorations">
       <sprite>sprites\spr_sock</sprite>
@@ -70,6 +73,7 @@
     </backgrounds>
     <background>background\tl_snow</background>
     <background>background\background5</background>
+    <background>background\bg_game_over</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_gothere</path>
@@ -89,6 +93,7 @@
     <objects name="obj_grp_menu">
       <object>objects\obj_start_button</object>
       <object>objects\obj_exit_button</object>
+      <object>objects\obj_menu</object>
     </objects>
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
@@ -102,6 +107,7 @@
       <object>objects\obj_toilet</object>
       <object>objects\obj_sink</object>
       <object>objects\obj_tv</object>
+      <object>objects\obj_doghouse</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost_immobile</object>
@@ -110,26 +116,29 @@
       <object>objects\obj_dad</object>
       <object>objects\obj_gram</object>
       <object>objects\obj_boy</object>
+      <object>objects\obj_dog</object>
     </objects>
     <objects name="obj_grp_misc">
       <object>objects\obj_credits_code</object>
-      <object>objects\obj_present</object>
+      <object>objects\obj_sight</object>
     </objects>
     <objects name="obj_grp_interactive">
       <object>objects\obj_present</object>
       <object>objects\obj_key</object>
       <object>objects\obj_door</object>
       <object>objects\obj_stairs</object>
+      <object>objects\obj_bone</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_ending</room>
     <room>rooms\rm_credits</room>
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

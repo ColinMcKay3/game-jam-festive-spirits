@@ -112,7 +112,7 @@ green_scale = (global.festive/100)*5;
 
 //Exit The Game
 if (keyboard_check_pressed(vk_escape)) {
-    room_goto(rm_menu);
+    game_end();
 }
 
 
@@ -144,8 +144,12 @@ image_speed = 0.1
 
 
 if(global.has_key){
-    draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);
+    draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+25);
 }
+if(global.has_bone){
+    draw_sprite(spr_bone,0,view_xview[0]+230,view_yview[0]+25);
+}
+
 
 if(room == rm_basement){
     draw_sprite(spr_basement_dark,0,x,y);
