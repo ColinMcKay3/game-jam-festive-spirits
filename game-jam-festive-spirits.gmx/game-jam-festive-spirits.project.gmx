@@ -82,6 +82,8 @@
     <script>scripts\scr_in_sight.gml</script>
     <script>scripts\scr_draw_ai.gml</script>
     <script>scripts\scr_text_bubble.gml</script>
+    <script>scripts\scr_game_over.gml</script>
+    <script>scripts\show_text.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="obj_grp_menu">
