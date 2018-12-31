@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ending_timer = 600;
+            <string>ending_counter = 600;
+path_start(pth_ending, 1, path_action_stop, false);
 </string>
           </argument>
         </arguments>
@@ -49,6 +50,12 @@
           <argument>
             <kind>1</kind>
             <string>image_angle = direction;
+image_speed = .1;
+ending_counter --;
+if (path_position == 0.5) {   
+    path_speed = 0;
+}
+
 </string>
           </argument>
         </arguments>
@@ -71,7 +78,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_text_bubble("Janet!");
+            <string>draw_self();
+if (ending_counter &gt;= 500) {
+    scr_text_bubble("Janet!");
+} else if (ending_counter &gt;= 400) {
+    with (obj_janet) {
+        scr_text_bubble("AAAAAAHH!!!!!");
+    }
+} else if (ending_counter &gt;= 300) {
+    scr_text_bubble("It's Ok Janet");
+} else if (ending_counter &gt;= 200) {
+    scr_text_bubble("We're together");
+} else if (ending_counter &gt;= 100) {
+    scr_text_bubble("again");
+    draw_sprite(spr_knife, 0, x + 10, y - 10);
+}
 </string>
           </argument>
         </arguments>
