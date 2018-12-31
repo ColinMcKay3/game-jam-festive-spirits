@@ -21,6 +21,7 @@
       <sprite>sprites\spr_couch</sprite>
       <sprite>sprites\spr_toilet</sprite>
       <sprite>sprites\spr_sink</sprite>
+      <sprite>sprites\spr_fridge</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
       <sprite>sprites\spr_exit_button</sprite>
@@ -109,6 +110,7 @@
       <object>objects\obj_tv</object>
       <object>objects\obj_doghouse</object>
       <object>objects\obj_oven</object>
+      <object>objects\obj_fridge</object>
     </objects>
     <objects name="obj_grp_AI">
       <object>objects\obj_ghost_immobile</object>
