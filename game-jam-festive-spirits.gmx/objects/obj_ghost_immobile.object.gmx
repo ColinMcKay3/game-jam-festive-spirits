@@ -82,7 +82,16 @@ if (path_position == 0.5) {
 if (ending_counter &gt;= 500) {
     scr_text_bubble("Janet!");
 } else if (ending_counter &gt;= 400) {
-    scr_text_bubble();
+    with (obj_janet) {
+        scr_text_bubble("AAAAAAHH!!!!!");
+    }
+} else if (ending_counter &gt;= 300) {
+    scr_text_bubble("It's Ok Janet");
+} else if (ending_counter &gt;= 200) {
+    scr_text_bubble("We're together");
+} else if (ending_counter &gt;= 100) {
+    scr_text_bubble("again");
+    draw_sprite(spr_knife, 0, x + 10, y - 10);
 }
 </string>
           </argument>

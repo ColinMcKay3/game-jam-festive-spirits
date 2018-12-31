@@ -120,11 +120,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\noah_test_room</room>
     <room>rooms\rm_ending</room>
+    <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_oven</room>
     <room>rooms\rm_floor_1</room>
     <room>rooms\rm_attic</room>
   </rooms>
