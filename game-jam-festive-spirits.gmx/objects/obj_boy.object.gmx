@@ -52,7 +52,8 @@ path_start(pth_boy, 1, path_action_restart, false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (stop_counter &lt;= 300 &amp;&amp; stop_counter &gt; 0) {
+            <string>image_angle = direction;
+if (stop_counter &lt;= 300 &amp;&amp; stop_counter &gt; 0) {
     path_speed = 0;
 } else if (stop_counter &lt;= 0) {
     path_speed = 1;

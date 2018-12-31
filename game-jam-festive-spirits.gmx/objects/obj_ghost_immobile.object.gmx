@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_speed = 2.5;
-green_scale = 0;
-
+            <string>ending_timer = 600;
 </string>
           </argument>
         </arguments>
@@ -50,72 +48,7 @@ green_scale = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Movement
-if(keyboard_check(ord('A'))){
-    hspeed = -player_speed;
-}else if(keyboard_check(ord('D'))){
-    hspeed = player_speed;
-}else {
-    hspeed = 0;
-}
-
-if(keyboard_check(ord('W'))){
-    
-    vspeed = -player_speed;
-}else if(keyboard_check(ord('S'))){
-    vspeed = player_speed
-}else {
-    vspeed = 0;
-}
-
-speed = min(speed, player_speed);
-
-//Collision
-if(keyboard_check(ord('A'))){
-    x_direction = -1;
-}else if(keyboard_check(ord('D'))) {
-    x_direction = 1;
-} else{
-    x_direction =0;
-}
-
-if(keyboard_check(ord('W'))){
-    y_direction = -1;
-}else if(keyboard_check(ord('S'))) {
-    y_direction = 1;
-} else {
-    y_direction = 0;
-}
-
-if(place_meeting(x+(x_direction*speed),y,obj_wall)){
-    hspeed = 0;
-    while(!place_meeting(x+x_direction,y,obj_wall)){
-        x+=x_direction;
-    }
-}
-
-if(place_meeting(x,y+(y_direction*speed),obj_wall)){
-    vspeed = 0;
-    while(!place_meeting(x,y+y_direction,obj_wall)){
-        y+=y_direction;
-    }
-}
-
-if (place_meeting(x - x_direction , y - y_direction, obj_janet) &amp;&amp; festive == 100) {
-    room_goto(rm_ending);
-}
-
-//Festive
-green_scale = (global.festive/100)*5;
-
-//the amount of festive you get is kept within obj_present
-
-//Exit The Game
-if (keyboard_check_pressed(vk_escape)) {
-    room_goto(rm_menu);
-}
-
-
+            <string>image_angle = direction;
 </string>
           </argument>
         </arguments>
@@ -138,21 +71,7 @@ if (keyboard_check_pressed(vk_escape)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
-
-image_speed = 0.1
-
-
-if(global.has_key){
-    draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);
-}
-
-if(room == rm_basement){
-    draw_sprite(spr_basement_dark,0,x,y);
-}
-draw_sprite_ext(spr_festive,1,view_xview[0]+20,view_yview[0]+20,5,1,0,c_white,1);
-draw_sprite_ext(spr_festive,0,view_xview[0]+20,view_yview[0]+20,green_scale,1,0,c_white,1);
-
+            <string>scr_text_bubble("Janet!");
 </string>
           </argument>
         </arguments>
