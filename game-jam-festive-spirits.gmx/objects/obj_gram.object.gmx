@@ -68,6 +68,7 @@ if (on_path == false &amp;&amp; global.oven_on == true) {
 
 if (global.stop_counter &lt;= 0) {
     direction = 90;
+    on_path = false;
 } else {
     global.stop_counter --;
 }
