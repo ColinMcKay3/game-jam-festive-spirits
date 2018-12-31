@@ -121,6 +121,7 @@
     <objects name="obj_grp_misc">
       <object>objects\obj_credits_code</object>
       <object>objects\obj_sight</object>
+      <object>objects\obj_stairs_useless</object>
     </objects>
     <objects name="obj_grp_interactive">
       <object>objects\obj_present</object>
@@ -131,8 +132,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_ending</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_credits</room>
     <room>rooms\noah_test_room</room>
     <room>rooms\rm_basement</room>
