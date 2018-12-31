@@ -145,7 +145,6 @@ if (keyboard_check_pressed(vk_escape)) {
 image_speed = 0.1
 
 
-
 if(has_key){
     draw_sprite(spr_key,0,view_xview[0]+200,view_yview[0]+30);
 }
