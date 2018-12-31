@@ -131,6 +131,7 @@
       <object>objects\obj_stairs</object>
       <object>objects\obj_bone</object>
     </objects>
+    <object>objects\obj_counter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_ending</room>

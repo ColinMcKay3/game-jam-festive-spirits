@@ -247,6 +247,7 @@
     <instance objName="obj_bone" x="480" y="160" name="inst_7869CF0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bone" x="480" y="320" name="inst_2DF183F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="128" y="288" name="inst_E2B6874E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oven" x="1024" y="256" name="inst_59AF995B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tl_carpet" x="224" y="416" w="32" h="32" xo="0" yo="0" id="10000418" name="inst_19901140" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
