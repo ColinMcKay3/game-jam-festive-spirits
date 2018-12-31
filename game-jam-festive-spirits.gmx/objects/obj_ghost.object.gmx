@@ -123,7 +123,7 @@ if (keyboard_check_pressed(vk_escape)) {
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_dummy">
+    <event eventtype="4" ename="obj_start_button">
       <action>
         <libid>1</libid>
         <id>603</id>

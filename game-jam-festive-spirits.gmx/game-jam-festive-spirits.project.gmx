@@ -24,6 +24,7 @@
       <sprite>sprites\spr_fridge</sprite>
     </sprites>
     <sprites name="spr_grp_menu">
+      <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_exit_button</sprite>
       <sprite>sprites\spr_start_button</sprite>
       <sprite>sprites\spr_menu</sprite>
@@ -94,8 +95,10 @@
   <objects name="objects">
     <objects name="obj_grp_menu">
       <object>objects\obj_start_button</object>
+      <object>objects\obj_info</object>
       <object>objects\obj_exit_button</object>
       <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
     </objects>
     <objects name="obj_grp_solid">
       <object>objects\obj_wall</object>
